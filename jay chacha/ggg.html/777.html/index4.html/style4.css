@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    
+    width: 100%;
+    height: 90px;
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: indianred;
+}
+
+#navbar nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding: 0 20px;
+    
+
+
+
+}
+#navbar nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+#navbar button {
+    background-color: rgb(107, 218, 118);
+    border-radius: 20px;
+    padding: 15px 30px;
+    color: white;
+    display: flex;
+}
